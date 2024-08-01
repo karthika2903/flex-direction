@@ -1,0 +1,386 @@
+.box1{
+    border:2px solid black;
+    height:250px;
+    width:300px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+.first{
+    height:50px;
+    width:50px;
+    background-color: red;
+    margin:10px;
+
+}
+.second{
+    height:50px;
+    width:70px;
+    background-color: red;
+    margin:10px;
+}
+.three{
+    height:50px;
+    width:60px;
+    background-color: red;
+    margin:10px;
+}
+.box2{
+    border:2px solid black;
+    height:250px;
+    width: 300px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+}
+.row1{
+    height:50px;
+    width:50px;
+    background-color: red;
+    margin:10px;
+
+}
+.row2{
+    height:50px;
+    width:70px;
+    background-color: red;
+    margin:10px;
+}
+.row3{
+    height:50px;
+    width:60px;
+    background-color: red;
+    margin:10px;
+}
+.box3{
+    border:2px solid black;
+    height:250px;
+    width:300px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row-reverse;
+}
+.row11{
+    height:50px;
+    width:50px;
+    background-color: red;
+    margin:10px;
+}
+.row22{
+    height:50px;
+    width:70px;
+    background-color: red;
+    margin:10px;
+}
+.row33{
+    height:50px;
+    width:60px;
+    background-color: red;
+    margin:10px;
+}
+.box4{
+    border:2px solid black;
+    height:250px;
+    width:300px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column-reverse;
+    /* margin-left:50px; */
+}
+.last1{
+    height:50px;
+    width:50px;
+    background-color: red;
+    margin:10px;
+}
+.last2{
+    height:50px;
+    width:70px;
+    background-color: red;
+    margin:10px;
+}
+.last3{
+    height:50px;
+    width:60px;
+    background-color: red;
+    margin:10px;
+}
+.whole{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.box11{
+    border:2px solid black;
+    height:200px;
+    width:300px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: flex-start;
+}
+.row11{
+    height:50px;
+    width:50px;
+    background-color: red;
+    margin:10px;  
+}
+.row22{
+    height:50px;
+    width:80px;
+    background-color: red;
+    margin:10px;
+}
+.row33{
+    height:50px;
+    width:65px;
+    background-color: red;
+    margin:10px;
+}
+.box22{
+    border:2px solid black;
+    height:200px;
+    width:300px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: flex-end; 
+}
+.row111{
+    height:50px;
+    width:50px;
+    background-color: red;
+    margin:10px;  
+}
+.row222{
+    height:50px;
+    width:80px;
+    background-color: red;
+    margin:10px;
+}
+.row333{
+    height:50px;
+    width:65px;
+    background-color: red;
+    margin:10px;
+}
+.box33{
+    border:2px solid black;
+    height:200px;
+    width:300px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center; 
+}
+.row1111{
+    height:50px;
+    width:50px;
+    background-color: red;
+    margin:10px;  
+}
+.row2222{
+    height:50px;
+    width:80px;
+    background-color: red;
+    margin:10px;
+}
+.row3333{
+    height:50px;
+    width:65px;
+    background-color: red;
+    margin:10px;
+}
+.box44{
+    border:2px solid black;
+    height:200px;
+    width:300px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: stretch;
+}
+.one{
+    width:50px;
+    background-color: red;
+    margin:10px;  
+}
+.two{
+    width:80px;
+    background-color: red;
+    margin:10px;
+}
+.thirdrow{
+    width:65px;
+    background-color: red;
+    margin:10px;
+}
+
+.whole2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.justify{
+    border:2px solid black;
+    height:200px;
+    width:250px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+}
+.onebox{
+    height:100px;
+    width:50px;
+    background-color: red;
+    margin:10px;  
+}
+.twobox{
+    height:100px;
+    width:60px;
+    background-color: red;
+    margin:10px;
+}
+.thirdbox{
+    height:100px;
+    width:50px;
+    background-color: red;
+    margin:10px;
+}
+.center{
+    border:2px solid black;
+    height:200px;
+    width:250px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.center1{
+    height:100px;
+    width:50px;
+    background-color: red;
+    margin:10px;  
+}
+.center2{
+    height:100px;
+    width:60px;
+    background-color: red;
+    margin:10px;
+}
+.center3{
+    height:100px;
+    width:50px;
+    background-color: red;
+    margin:10px;
+}
+.end{
+    border:2px solid black;
+    height:200px;
+    width:250px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+}
+.end1{
+    height:100px;
+    width:50px;
+    background-color: red;
+    margin:10px;  
+}
+.end2{
+    height:100px;
+    width:60px;
+    background-color: red;
+    margin:10px;  
+}
+.end3{
+    height:100px;
+    width:50px;
+    background-color: red;
+    margin:10px;  
+}
+.around{
+    border:2px solid black;
+    height:200px;
+    width:250px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.around1{
+    height:100px;
+    width:50px;
+    background-color: red;
+    margin:10px;  
+}
+.around2{
+    height:100px;
+    width:60px;
+    background-color: red;
+    margin:10px;  
+}
+.around3{
+    height:100px;
+    width:50px;
+    background-color: red;
+    margin:10px;  
+}
+.between{
+    border:2px solid black;
+    height:200px;
+    width:250px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.between1{
+    height:100px;
+    width:50px;
+    background-color: red;
+    margin:10px;  
+}
+.between2{
+    height:100px;
+    width:60px;
+    background-color: red;
+    margin:10px;  
+}
+.between3{
+    height:100px;
+    width:50px;
+    background-color: red;
+    margin:10px;  
+}
+.evenly{
+    border:2px solid black;
+    height:200px;
+    width:250px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.evenly1{
+    height:100px;
+    width:50px;
+    background-color: red;
+    margin:10px;  
+}
+.evenly2{
+    height:100px;
+    width:60px;
+    background-color: red;
+    margin:10px;  
+}
+.evenly3{
+    height:100px;
+    width:50px;
+    background-color: red;
+    margin:10px;  
+}
+
+/* .whole3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} */
+
+
+
+
+
